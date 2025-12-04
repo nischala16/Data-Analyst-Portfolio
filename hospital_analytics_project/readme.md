@@ -23,14 +23,14 @@ Hospitals generate vast amounts of data, but understanding operational efficienc
 
 All SQL queries are stored in the `/sql/` folder:
 
-| File                          | Purpose                                                                     |
-| ----------------------------- | --------------------------------------------------------------------------- |
-| `01_data_cleaning.sql`        | Type casting, handling missing values, filtering outliers (e.g., LOS > 365) |
-| `02_operational_metrics.sql`  | Avg LOS, SLA, severity mix                                                  |
-| `03_financial_metrics.sql`    | Cost per visit, cost per day, charges vs. costs                             |
-| `04_demographic_metrics.sql`  | Race/ethnicity, gender, age groups                                          |
-| `05_readmission_features.sql` | LOS by severity, cost by severity                                           |
-| `full_sql_pack.sql`           | All queries combined for easy reference                                     |
+| File                              | Purpose                                                                     |
+| --------------------------------- | --------------------------------------------------------------------------- |
+| `01_data_cleaning.sql`            | Type casting, handling missing values, filtering outliers (e.g., LOS > 365) |
+| `02_operational_metrics.sql`      | Avg LOS, SLA performance                                                    |
+| `03_financial_metrics.sql`        | Cost per visit, cost per day, charges vs. costs                             |
+| `04_operational_flow_metrics.sql` | Admission types, patient disposition, severity distribution                 |
+| `05_demographic_metrics.sql`      | Race/ethnicity, gender, age groups                                          |
+| `06_readmission_features.sql`     | LOS by severity, cost by severity                                           |
 
 > **Note:** The raw dataset is too large to host here. Download it from Kaggle: [Kaggle Dataset Link](https://www.kaggle.com/…)
 
