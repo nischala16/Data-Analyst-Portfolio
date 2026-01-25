@@ -1,0 +1,140 @@
+
+======================================================================
+SEPHORA SENTIMENT ANALYSIS - KEY FINDINGS REPORT
+======================================================================
+Generated: 2026-01-24 19:36:27
+
+DATASET OVERVIEW
+----------------
+Total Reviews Analyzed: 1,092,953
+Positive Reviews: 820,816 (75.1%)
+Negative Reviews: 272,137 (24.9%)
+
+
+======================================================================
+1. TOP COMPLAINT CATEGORIES IN NEGATIVE REVIEWS
+======================================================================
+    1. Texture/Consistency      : 59,678 reviews (21.9%)
+    2. Skin Reactions           : 54,440 reviews (20.0%)
+    3. Ineffective/No Results   : 40,172 reviews (14.8%)
+    4. Drying Effect            : 30,029 reviews (11.0%)
+    5. Price/Value              : 21,732 reviews (8.0%)
+    6. Smell/Fragrance          : 12,513 reviews (4.6%)
+    7. Size/Quantity            : 5,509 reviews (2.0%)
+    8. Longevity/Wear           : 3,147 reviews (1.2%)
+    9. Misleading Claims        : 1,915 reviews (0.7%)
+   10. Packaging Issues         : 1,751 reviews (0.6%)
+
+
+======================================================================
+2. VOCABULARY DIFFERENCES: 5-STAR vs 1-STAR REVIEWS
+======================================================================
+
+Words UNIQUE to 5-STAR reviews (positive sentiment indicators):
+    1. love
+    2. amazing
+    3. great
+    4. soft
+    5. is
+    6. love this
+    7. smooth
+    8. best
+    9. my
+   10. skin
+
+Words UNIQUE to 1-STAR reviews (negative sentiment indicators):
+    1. and
+    2. this
+    3. not
+    4. was
+    5. did
+    6. didn
+    7. nothing
+    8. broke
+    9. out
+   10. me
+
+
+======================================================================
+3. MOST POLARIZING PRODUCT CATEGORIES (by sentiment variance)
+======================================================================
+    1. Foundation               : std=0.943 (n=1,933)
+    2. Highlighter              : std=0.943 (n=1,443)
+    3. Bronzer/Contour          : std=0.917 (n=7,174)
+    4. Sunscreen/SPF            : std=0.912 (n=58,752)
+    5. Cleanser                 : std=0.880 (n=149,647)
+    6. Other                    : std=0.874 (n=314,620)
+    7. Powder                   : std=0.862 (n=5,078)
+    8. Mask                     : std=0.859 (n=88,501)
+    9. Serum                    : std=0.858 (n=152,569)
+   10. Lip Balm/Treatment       : std=0.857 (n=43,742)
+
+
+======================================================================
+4. TOP 10 MOST CONTROVERSIAL PRODUCTS
+======================================================================
+
+   1. EradiKate Acne Treatment
+      Brand: Kate Somerville
+      Reviews: 3,151 | Rating: 4.22★ | Polarization: 0.98
+
+   2. Salicylic Acid Acne Healing Dots
+      Brand: Peace Out
+      Reviews: 4,576 | Rating: 4.18★ | Polarization: 0.93
+
+   3. Mini Oat Cleansing Balm
+      Brand: The INKEY List
+      Reviews: 3,000 | Rating: 3.60★ | Polarization: 0.96
+
+   4. Oat Cleansing Balm
+      Brand: The INKEY List
+      Reviews: 3,000 | Rating: 3.60★ | Polarization: 0.96
+
+   5. Super Spot Remover Acne Treatment Gel
+      Brand: Origins
+      Reviews: 1,703 | Rating: 3.94★ | Polarization: 0.99
+
+   6. Caffeine 5% + EGCG Depuffing Eye Serum
+      Brand: The Ordinary
+      Reviews: 2,114 | Rating: 3.77★ | Polarization: 0.89
+
+   7. Niacinamide 10% + Zinc 1% Oil Control Serum
+      Brand: The Ordinary
+      Reviews: 5,775 | Rating: 4.24★ | Polarization: 0.79
+
+   8. Umbra Tinte Physical Daily Defense SPF 30
+      Brand: Drunk Elephant
+      Reviews: 844 | Rating: 3.30★ | Polarization: 1.00
+
+   9. U.F.O. Salicylic Acid BHA Acne Treatment Face Oil
+      Brand: Sunday Riley
+      Reviews: 2,281 | Rating: 4.14★ | Polarization: 0.86
+
+   10. Vitamin C Suspension 23% + HA Spheres 2%
+      Brand: The Ordinary
+      Reviews: 1,113 | Rating: 3.45★ | Polarization: 0.95
+
+
+======================================================================
+5. ACTIONABLE INSIGHTS
+======================================================================
+
+Based on the analysis, here are key recommendations:
+
+FOR PRODUCT DEVELOPMENT:
+• Address top complaint: "Texture/Consistency" 
+  (21.9% of negative reviews)
+• Focus quality improvement on high-variance categories like 
+  "Foundation"
+
+FOR MARKETING:
+• Emphasize positive attributes like: love, amazing, great, soft, is
+• Address concerns around: and, this, not, was, did
+
+FOR CUSTOMER SERVICE:
+• Monitor controversial products for quality issues
+• Proactively address common complaints about texture, reactions, and effectiveness
+
+======================================================================
+END OF REPORT
+======================================================================

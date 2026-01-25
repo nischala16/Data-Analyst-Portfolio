@@ -1,0 +1,88 @@
+insight_type,item,value,percentage
+Negative Review Features,Application Difficulty,560.0,0.20577870704828818
+Negative Review Features,Color/Shade Issues,573.0,0.21055571274762344
+Negative Review Features,Packaging Issues,1751.0,0.6434259215027726
+Negative Review Features,Misleading Claims,1915.0,0.7036896857097712
+Negative Review Features,Longevity/Wear,3147.0,1.1564028412160052
+Negative Review Features,Size/Quantity,5509.0,2.024348030587535
+Negative Review Features,Smell/Fragrance,12513.0,4.598051716598625
+Negative Review Features,Price/Value,21732.0,7.985683681381069
+Negative Review Features,Drying Effect,30029.0,11.034515703487582
+Negative Review Features,Ineffective/No Results,40172.0,14.7616825348997
+Negative Review Features,Skin Reactions,54440.0,20.004630020908586
+Negative Review Features,Texture/Consistency,59678.0,21.929395855763826
+TF-IDF: 5-Star Keywords,love,0.028169683929473773,
+TF-IDF: 5-Star Keywords,amazing,0.013647982703448393,
+TF-IDF: 5-Star Keywords,great,0.016736401995665996,
+TF-IDF: 5-Star Keywords,soft,0.011349581061186626,
+TF-IDF: 5-Star Keywords,is,0.037386232949293705,
+TF-IDF: 5-Star Keywords,love this,0.014321743442846792,
+TF-IDF: 5-Star Keywords,smooth,0.010244859454301739,
+TF-IDF: 5-Star Keywords,best,0.009024550434490792,
+TF-IDF: 5-Star Keywords,my,0.056592064439579697,
+TF-IDF: 5-Star Keywords,skin,0.045506094863496285,
+TF-IDF: 5-Star Keywords,hydrated,0.008252415402865766,
+TF-IDF: 5-Star Keywords,definitely,0.012108571181142851,
+TF-IDF: 5-Star Keywords,has,0.016416665103890005,
+TF-IDF: 5-Star Keywords,love it,0.008789942424407947,
+TF-IDF: 5-Star Keywords,feels,0.012959433826257418,
+TF-IDF: 5-Star Keywords,perfect,0.0070829467668839475,
+TF-IDF: 5-Star Keywords,my skin,0.031203941073025623,
+TF-IDF: 5-Star Keywords,the best,0.0069220552735970615,
+TF-IDF: 5-Star Keywords,this is,0.016381210330938648,
+TF-IDF: 5-Star Keywords,soft and,0.006114778025350249,
+TF-IDF: 1-Star Keywords,and,0.05299964790235282,
+TF-IDF: 1-Star Keywords,this,0.048119524181476164,
+TF-IDF: 1-Star Keywords,not,0.03207595205073767,
+TF-IDF: 1-Star Keywords,was,0.02846723511322367,
+TF-IDF: 1-Star Keywords,did,0.015911403787961444,
+TF-IDF: 1-Star Keywords,didn,0.015071001133895695,
+TF-IDF: 1-Star Keywords,nothing,0.011670741323109976,
+TF-IDF: 1-Star Keywords,broke,0.009104761731083514,
+TF-IDF: 1-Star Keywords,out,0.021620208190979442,
+TF-IDF: 1-Star Keywords,me,0.023785225597962374,
+TF-IDF: 1-Star Keywords,money,0.009967911619917716,
+TF-IDF: 1-Star Keywords,wanted,0.008987830237809045,
+TF-IDF: 1-Star Keywords,disappointed,0.008012306352042739,
+TF-IDF: 1-Star Keywords,wanted to,0.008164601254831571,
+TF-IDF: 1-Star Keywords,had,0.01567973156667795,
+TF-IDF: 1-Star Keywords,bad,0.009244869337197837,
+TF-IDF: 1-Star Keywords,did not,0.009031772747366443,
+TF-IDF: 1-Star Keywords,work,0.010363755937841836,
+TF-IDF: 1-Star Keywords,waste,0.006855245256677415,
+TF-IDF: 1-Star Keywords,for me,0.011518336075520877,
+Category Sentiment Variance,Foundation,0.9433,1933.0
+Category Sentiment Variance,Highlighter,0.9431,1443.0
+Category Sentiment Variance,Bronzer/Contour,0.9175,7174.0
+Category Sentiment Variance,Sunscreen/SPF,0.9118,58752.0
+Category Sentiment Variance,Cleanser,0.8805,149647.0
+Category Sentiment Variance,Other,0.8743,314620.0
+Category Sentiment Variance,Powder,0.8619,5078.0
+Category Sentiment Variance,Mask,0.8586,88501.0
+Category Sentiment Variance,Serum,0.8577,152569.0
+Category Sentiment Variance,Lip Balm/Treatment,0.8572,43742.0
+Category Sentiment Variance,Eye Cream,0.8558,45883.0
+Category Sentiment Variance,Toner,0.8358,27572.0
+Category Sentiment Variance,Moisturizer,0.8297,184939.0
+Category Sentiment Variance,Tools/Brushes,0.8263,1137.0
+Category Sentiment Variance,Face Primer,0.8258,8724.0
+Controversial Products,EradiKate Acne Treatment (Kate Somerville),7.914998239611248,3151.0
+Controversial Products,Salicylic Acid Acne Healing Dots (Peace Out),7.860722738869147,4576.0
+Controversial Products,Mini Oat Cleansing Balm (The INKEY List),7.711060155695694,3000.0
+Controversial Products,Oat Cleansing Balm (The INKEY List),7.711060155695694,3000.0
+Controversial Products,Super Spot Remover Acne Treatment Gel (Origins),7.340997077058489,1703.0
+Controversial Products,Caffeine 5% + EGCG Depuffing Eye Serum (The Ordinary),6.804307263565657,2114.0
+Controversial Products,Niacinamide 10% + Zinc 1% Oil Control Serum (The Ordinary),6.749932035829774,5775.0
+Controversial Products,Umbra Tinte Physical Daily Defense SPF 30 (Drunk Elephant),6.725281376066203,844.0
+Controversial Products,U.F.O. Salicylic Acid BHA Acne Treatment Face Oil (Sunday Riley),6.648268210090176,2281.0
+Controversial Products,Vitamin C Suspension 23% + HA Spheres 2% (The Ordinary),6.627580238569266,1113.0
+Controversial Products,Umbra Sheer Physical Daily Defense SPF 30 (Drunk Elephant),6.585310908893609,1361.0
+Controversial Products,Cicapair Tiger Grass Color Correcting Treatment SPF 30 (Dr. Jart+),6.578820537576955,5315.0
+Controversial Products,Succinic Acid Acne Treatment (The INKEY List),6.542572163520848,920.0
+Controversial Products,Self-Tanning Water (Isle of Paradise),6.53077857741609,1072.0
+Controversial Products,Slaai  Makeup-Melting Butter Cleanser (Drunk Elephant),6.436276194348366,1523.0
+Controversial Products,Mini Cicapair Tiger Grass Color Correcting Treatment SPF 30 (Dr. Jart+),6.4344691996983245,5029.0
+Controversial Products,Lippe Balm (Drunk Elephant),6.417837313242419,1898.0
+Controversial Products,Rapid Relief Acne Spot Treatment (Murad),6.219089382795719,589.0
+Controversial Products,Needles No More Wrinkle Smoothing Cream (Dr. Brandt Skincare),6.211130215195116,508.0
+Controversial Products,Acne Solutions Clinical Clearing Gel (CLINIQUE),6.188435059347736,1078.0

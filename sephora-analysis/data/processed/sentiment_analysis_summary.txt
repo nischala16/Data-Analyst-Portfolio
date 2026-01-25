@@ -1,0 +1,15 @@
+SENTIMENT ANALYSIS SUMMARY
+============================================================
+
+Total reviews analyzed: 1,092,953
+Model used: distilbert-base-uncased-finetuned-sst-2-english
+Batch size: 32
+
+Sentiment Distribution:
+  POSITIVE: 820,816 (75.10%)
+  NEGATIVE: 272,137 (24.90%)
+
+Confidence Score Statistics:
+  Mean: 0.9710
+  Median: 0.9982
+  Std Dev: 0.0785
