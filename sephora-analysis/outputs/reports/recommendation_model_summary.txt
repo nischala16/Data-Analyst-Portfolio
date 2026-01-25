@@ -1,0 +1,60 @@
+SEPHORA HYBRID RECOMMENDATION SYSTEM - MODEL SUMMARY
+============================================================
+Generated: 2026-01-25 14:46:34
+
+DATA STATISTICS
+------------------------------------------------------------
+Total Products: 8,494
+Products with 5+ reviews: 2,224
+Total Reviews: 1,092,953
+
+COLLABORATIVE FILTERING STATISTICS
+------------------------------------------------------------
+Active Users (3+ reviews): 105,566
+Popular Products (10+ reviews): 2,122
+User-Item Matrix Dimensions: 105,566 x 2,122
+Matrix Sparsity: 99.74%
+SVD Latent Factors: 50
+Explained Variance Ratio: 0.2988
+
+CONTENT-BASED FILTERING STATISTICS
+------------------------------------------------------------
+TF-IDF Vocabulary Size: 5,000
+Ingredients Matrix Shape: (2224, 5000)
+
+HYBRID MODEL CONFIGURATION
+------------------------------------------------------------
+Collaborative Weight: 60%
+Content-Based Weight: 40%
+
+EVALUATION RESULTS (@K=10)
+------------------------------------------------------------
+
+Content-Based:
+  Precision@10: 0.0020
+  Recall@10: 0.0165
+  NDCG@10: 0.0072
+
+Collaborative:
+  Precision@10: 0.0000
+  Recall@10: 0.0000
+  NDCG@10: 0.0000
+
+Hybrid:
+  Precision@10: 0.0000
+  Recall@10: 0.0000
+  NDCG@10: 0.0000
+
+FILES GENERATED
+------------------------------------------------------------
+1. similarity_matrices.npz - Precomputed similarity matrices
+2. recommendation_mappings.pkl - Product and user ID mappings
+3. sample_recommendations.csv - Top 20 recommendations for 10 sample products
+4. recommendation_model_summary.txt - This file
+
+KEY LEARNINGS
+------------------------------------------------------------
+- Content-based filtering achieved 0.2% Precision@10
+- Collaborative filtering hindered by data sparsity (99.8%)
+- SVD only explained 30% of variance - insufficient for accurate predictions
+- Real-world lesson: Data density crucial for collaborative approaches
