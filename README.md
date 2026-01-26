@@ -10,8 +10,8 @@ Currently open to data science and analytics roles.
 
 | Project | Description | Key Results | Stack |
 |---------|-------------|-------------|-------|
-| **[Sephora Beauty Analytics](https://github.com/nischala16/sephora-beauty-analytics)** | ML pipeline analyzing 1M+ reviews to identify pricing strategies and sentiment patterns | Brand positioning drives 85% of pricing variance • 90% category-first user behavior • Identified 30% pricing opportunity in travel sizes | Python, DistilBERT, XGBoost, BERTopic, scikit-learn |
-| **[Spotify Streaming Analytics](https://github.com/nischala16/spotify-streaming-analytics)** | Statistical analysis of 114K tracks to understand popularity drivers and optimize playlists | High danceability + energy tracks show 2.35x popularity • Genre explains 100% variance (emo 48.1 vs reggaeton 23.9) • Individual features r<0.10 | Python, pandas, scipy, statistical testing |
+| **[Sephora Beauty Analytics](https://github.com/nischala16/Data-Analyst-Portfolio/tree/main/sephora-beauty-analytics)** | ML pipeline analyzing 1M+ reviews to identify pricing strategies and sentiment patterns | Brand positioning drives 85% of pricing variance • 90% category-first user behavior • Identified 30% pricing opportunity in travel sizes | Python, DistilBERT, XGBoost, BERTopic, scikit-learn |
+| **[Spotify Streaming Analytics](https://github.com/nischala16/Data-Analyst-Portfolio/tree/main/spotify-streaming-analysis)** | Statistical analysis of 114K tracks to understand popularity drivers and optimize playlists | High danceability + energy tracks show 2.35x popularity • Genre explains 100% variance (emo 48.1 vs reggaeton 23.9) • Individual features r<0.10 | Python, pandas, scipy, statistical testing |
 
 ---
 
