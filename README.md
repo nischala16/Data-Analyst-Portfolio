@@ -6,7 +6,7 @@ Welcome to my data portfolio! I build end-to-end machine learning pipelines and 
 
 ## 📚 Featured Projects
 
-### 🧴 Sephora Beauty Analytics | [GitHub](https://github.com/nischala16/Data-Analyst-Portfolio/sephora-beauty-analytics)
+### 🧴 Sephora Beauty Analytics | [GitHub](https://github.com/nischala16/Data-Analyst-Portfolio/tree/main/sephora-analysis)
 **ML-powered analytics on 1M+ product reviews with sentiment analysis, recommendation systems, and predictive modeling**
 
 - Built sentiment classifier using DistilBERT transformers (87.7% high-confidence predictions)
