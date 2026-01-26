@@ -96,6 +96,3 @@ Jupyter • Git/GitHub • Data Cleaning & ETL • Dashboard Design • Business
 
 Open to opportunities in Data Analytics, Data Science, and Business Intelligence.
 
----
-
-*This portfolio demonstrates end-to-end analytical capabilities from data exploration to machine learning deployment, with a focus on driving measurable business outcomes.*
