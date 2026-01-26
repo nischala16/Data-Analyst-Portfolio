@@ -1,76 +1,101 @@
-# Nischala Nagisetty — Data & Machine Learning Portfolio
+# Nischala Nagisetty | Data Portfolio
 
-I build end-to-end machine learning and analytics systems that translate complex data into measurable business outcomes. My work spans statistical analysis, transformer-based NLP, recommendation systems, and supervised learning with an emphasis on production-grade methodology, cross-validation, and interpretability.
+Translating complex data into actionable insights through statistical analysis, machine learning, and data visualization. I build end-to-end analytics pipelines that drive business decisions—from exploratory analysis and A/B testing to predictive modeling and recommendation systems.
 
-I am currently focused on roles in Data Science, Machine Learning, and Product Insights across high-impact technology domains.
-
----
-
-## Featured Work
-
-### 🧴 Sephora Beauty Analytics — ML Pipeline + Recommendations + Pricing Insights
-**End-to-end machine learning system analyzing 1M+ beauty product reviews to uncover pricing strategy, customer sentiment drivers, and category-level quality patterns.**
-
-**Key technical components**
-• Transformer-based sentiment analysis (DistilBERT) with BERTopic taxonomy  
-• Hybrid recommendation system combining SVD collaborative filtering + TF-IDF content similarity  
-• Predictive modeling for product success, review helpfulness, and price positioning  
-• Cross-validated training, hyperparameter tuning, and feature importance analysis  
-
-**Scale & Outcomes**
-• 1,092,953 reviews | 8,494 products | 105,566 users  
-• AUC: 0.69 (product success) | 0.71 (review helpfulness) | R²: 0.58 (price prediction)  
-
-**Selected Findings**
-• Price ≠ quality (r = 0.083); brand positioning explains 85.5% of pricing power  
-• 5.3× increase in digital engagement post-2020  
-• Category-first browsing patterns (>90% of navigation paths)  
-• Device/tool category shows the highest negative sentiment (40%+)  
-
-**Business Recommendations**
-• Reprice mini/travel SKUs upward (~20–30% opportunity)  
-• Restructure discovery around category-first behavior  
-• Audit device/tool category for QA + labeling improvements  
-• Surface long-form extreme reviews to boost decision quality  
-
-**Tech**
-Python, PyTorch, Transformers, BERTopic, XGBoost, scikit-learn, pandas, matplotlib, seaborn  
-
-Repo: (link)  
-Demo/Report: (optional link)
+**Currently seeking:** Data Analyst | Data Scientist | Business Intelligence roles
 
 ---
 
-## Capabilities
+## 📊 Featured Projects
 
-**Machine Learning**
-• Supervised learning, cross-validation, hyperparameter tuning  
-• NLP (transformers, topic modeling, sentiment)  
-• Recommendation systems (CF + content-based)
-
-**Analytics & Experimentation**
-• Statistical inference, behavioral insights, funnel analysis  
-• Feature importance, model explainability, metric design  
-• Business-readable storytelling & executive reporting
-
-**Engineering Patterns**
-• Modular pipelines, reproducibility controls (random_state=42)  
-• Vectorization, batching, GPU-accelerated inference  
-• Data cleaning, schema design, parquet/CSV pipelines  
-
-**Tools & Tech**
-Python, SQL, PyTorch, scikit-learn, XGBoost, BERTopic, HuggingFace, pandas, NumPy, matplotlib, seaborn, Streamlit
+| Project | Description | Key Results | Tools & Methods |
+|---------|-------------|-------------|-----------------|
+| **[Sephora Beauty Analytics](link)** | End-to-end ML pipeline analyzing 1M+ product reviews to uncover pricing strategies, sentiment patterns, and product success drivers | • Identified 30% pricing opportunity in travel-size products<br>• 90% category-first user behavior discovered<br>• Built 3 predictive models (AUC: 0.69-0.71, R²: 0.58) | Python • SQL • Transformers (DistilBERT) • XGBoost • scikit-learn • Tableau |
+| **[Project Name 2]** | Brief description of what business problem you solved and how | • Quantified insight 1<br>• Quantified insight 2<br>• Impact metric | SQL • Python • Tableau • Statistics |
+| **[Project Name 3]** | Brief description | • Key finding 1<br>• Key finding 2 | Excel • SQL • Visualization Tool |
 
 ---
 
-## What I’m Exploring Next
-• Neural collaborative filtering for sparse datasets  
-• Real-time sentiment streaming + trend detection  
-• A/B simulation frameworks for recommendation policy testing  
-• Image models for product similarity (CNN-based)
+## 🛠️ Technical Skills
+
+**Data Analysis & Visualization**  
+SQL • Python (pandas, NumPy) • Excel • Tableau • Statistical Analysis • A/B Testing • Cohort Analysis
+
+**Machine Learning & Modeling**  
+scikit-learn • XGBoost • Regression • Classification • Feature Engineering • Model Evaluation (ROC-AUC, RMSE, F1)
+
+**NLP & Advanced Analytics**  
+Transformers (DistilBERT) • Sentiment Analysis • Topic Modeling (BERTopic) • Recommendation Systems
+
+**Tools & Platforms**  
+Jupyter • Git/GitHub • Data Cleaning & ETL • Dashboard Design • Business Reporting
 
 ---
 
-Open to **Data Scientist / ML Engineer / Analytics** opportunities.
+## 💡 Core Competencies
 
-[LinkedIn](https://www.linkedin.com/in/nischala-nagiestty) | [Email](mailto:nischalanagisetty@gmail.com)
+**Business Intelligence**  
+- Translating stakeholder questions into analytical frameworks
+- Designing metrics and KPIs for product/marketing decisions
+- Building dashboards and executive-ready reports
+
+**Statistical Analysis**  
+- Hypothesis testing and confidence intervals
+- Correlation and regression analysis
+- Experimental design and A/B test evaluation
+
+**Machine Learning**  
+- Supervised learning (classification, regression)
+- Recommendation systems (collaborative + content-based filtering)
+- Model validation and cross-validation techniques
+
+**Communication**  
+- Data storytelling with visualizations
+- Presenting insights to non-technical stakeholders
+- Documenting methodology and reproducible workflows
+
+---
+
+## 🎯 Sephora Analytics Deep Dive
+
+**Business Context:** Beauty e-commerce platform with 1M+ customer reviews across 8.5K products
+
+**Analysis Approach:**
+1. **Exploratory Analysis** — Statistical profiling, correlation testing, temporal trend analysis
+2. **Sentiment Analysis** — Transformer-based NLP to classify 1M reviews (87.7% confidence)
+3. **Recommendation Engine** — Hybrid system addressing cold-start and data sparsity challenges
+4. **Predictive Modeling** — 3 models predicting product success, review helpfulness, and optimal pricing
+
+**Key Findings:**
+- **Pricing Disconnect:** Price and quality show almost no correlation (r=0.083)
+- **Brand Power:** Brand positioning drives 85% of pricing decisions, not product features
+- **User Behavior:** 90% category-first navigation—contradicts brand-first merchandising strategy
+- **Quality Gaps:** Device/tool products show 40%+ negative sentiment vs. 25% for skincare
+
+**Business Impact:**
+- 📈 Identified 20-30% price increase opportunity for travel-size products
+- 🎯 Recommended category-first product discovery redesign
+- 🔧 Flagged device category for quality audit (highest complaint rate)
+- ⭐ Defined review helpfulness drivers to surface better content
+
+**Technical Highlights:**
+- Processed 1M+ text records with DistilBERT transformer model
+- Built hybrid recommendation system (60% collaborative + 40% content-based)
+- Trained 3 models with cross-validation and hyperparameter tuning
+- Handled 99.7% sparse user-item matrix for collaborative filtering
+
+[View Full Analysis →](link)
+
+---
+
+## 📫 Contact
+
+**LinkedIn:** [Nischala Nagisetty](https://www.linkedin.com/in/nischala-nagisetty/)  
+**Email:** nischalanagisetty@gmail.com  
+**GitHub:** [github.com/nischala16](https://github.com/nischala16)
+
+Open to opportunities in Data Analytics, Data Science, and Business Intelligence.
+
+---
+
+*This portfolio demonstrates end-to-end analytical capabilities from data exploration to machine learning deployment, with a focus on driving measurable business outcomes.*
