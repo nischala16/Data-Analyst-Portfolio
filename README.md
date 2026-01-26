@@ -1,6 +1,6 @@
 # Nischala Nagisetty
 
-Data scientist and analyst specializing in statistical modeling, machine learning, and exploratory analysis. I build systems that extract actionable insights from complex datasets.
+Data professional specializing in statistical modeling, machine learning, and exploratory analysis. I build systems that extract actionable insights from complex datasets.
 
 Currently open to data science and analytics roles.
 
