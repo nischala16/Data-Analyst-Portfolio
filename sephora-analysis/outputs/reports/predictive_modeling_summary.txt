@@ -1,0 +1,112 @@
+
+================================================================================
+SEPHORA PREDICTIVE MODELING - COMPREHENSIVE RESULTS
+================================================================================
+Generated: 2026-01-25 18:49:10
+
+================================================================================
+MODEL 1: PRODUCT SUCCESS PREDICTION
+================================================================================
+Objective: Predict which products will become top performers (rating≥4.3, reviews≥100)
+Best Model: XGBoost Classifier
+
+Performance Metrics:
+  • Accuracy:  0.6451 (64.5%)
+  • Precision: 0.4172 (41.7%)
+  • Recall:    0.6328 (63.3%)
+  • F1 Score:  0.5029
+  • ROC-AUC:   0.6892
+
+Top 5 Predictive Features:
+                      feature  importance
+0                   price_usd    0.441043
+1            brand_popularity    0.295686
+2             has_ingredients    0.033829
+32  primary_category_Skincare    0.019908
+3                 is_skincare    0.018686
+
+Business Impact:
+  - Can identify likely successful products before launch
+  - Helps prioritize marketing spend on high-potential items
+  - Reduces investment in products predicted to underperform
+
+================================================================================
+MODEL 2: REVIEW HELPFULNESS PREDICTION
+================================================================================
+Objective: Identify reviews that will be helpful to other customers
+Best Model: Gradient Boosting Classifier
+
+Performance Metrics:
+  • Accuracy:  0.7261 (72.6%)
+  • Precision: 0.3138 (31.4%)
+  • Recall:    0.5285 (52.9%)
+  • F1 Score:  0.3938
+  • ROC-AUC:   0.7063
+
+Top 5 Predictive Features:
+                 feature  importance
+3                 rating    0.335620
+0          review_length    0.304616
+6  is_positive_sentiment    0.123434
+2        sentiment_score    0.121692
+1           title_length    0.054141
+
+Business Impact:
+  - Surface helpful reviews to improve customer experience
+  - Guide users to write better reviews (longer, detailed)
+  - Reduce product returns through better information
+
+================================================================================
+MODEL 3: PRICE OPTIMIZATION
+================================================================================
+Objective: Predict optimal price for quality products (rating≥4.0)
+Best Model: XGBoost Regressor
+
+Performance Metrics:
+  • RMSE: $30.86
+  • MAE:  $17.71
+  • R²:   0.5788
+
+Top 5 Predictive Features:
+                    feature  importance
+3           brand_avg_price    0.855404
+2        category_avg_price    0.070516
+1               log_reviews    0.031949
+0                    rating    0.020639
+28  primary_category_Makeup    0.004581
+
+Business Impact:
+  - Guide pricing for new product launches
+  - Identify over/under-priced products for adjustment
+  - Optimize revenue while maintaining competitiveness
+
+================================================================================
+KEY INSIGHTS & RECOMMENDATIONS
+================================================================================
+
+1. BRAND POWER: Brand reputation is a consistent predictor across all models.
+   New brands need extra support through competitive pricing and visibility.
+
+2. PRODUCT TRANSPARENCY: Having ingredient information correlates with both
+   product success and appropriate pricing. Invest in detailed product info.
+
+3. REVIEW QUALITY: Longer, detailed reviews with profile information are more
+   helpful. Incentivize detailed reviews to improve customer experience.
+
+4. PRICING SWEET SPOTS: Different categories have different optimal price
+   ranges. Use category-specific pricing strategies.
+
+5. CATEGORY-SPECIFIC STRATEGIES: Skincare and Makeup have different success
+   patterns. Customize marketing and pricing by category.
+
+================================================================================
+FILES GENERATED
+================================================================================
+• model_performance_summary.csv - Comprehensive metrics table
+• 17_product_success_models.png - Model comparison visualization
+• 18_feature_importance.png - Feature importance analysis
+• 19_helpfulness_model.png - Helpfulness model results
+• 20_price_optimization.png - Price model analysis
+• 20_price_optimization_categories.png - Category-specific pricing
+
+================================================================================

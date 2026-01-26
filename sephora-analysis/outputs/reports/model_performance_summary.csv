@@ -1,0 +1,4 @@
+Model,Type,Target,Accuracy,Precision,Recall,F1,ROC-AUC,RMSE,MAE,R2
+Product Success (XGBoost),Classification,"Is Successful (rating≥4.3, reviews≥100)",0.6450853443201884,0.4172366621067031,0.6327800829875518,0.5028854080791426,0.6891597936562597,,,
+Review Helpfulness (Gradient Boosting),Classification,Is Helpful (pos_feedback≥5),0.7261,0.31375661375661373,0.5285204991087344,0.3937583001328021,0.7062532849590188,,,
+Price Optimization (XGBoost Regressor),Regression,price_usd,,,,,,30.861018862706477,17.711906043975613,0.5788089542259539
