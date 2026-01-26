@@ -1,6 +1,0 @@
-Question,Key Finding,Metric,Evidence,Business Recommendation
-Q1: What audio features predict popularity?,"Top predictors: instrumentalness, loudness, speechiness",r = -0.0947 (strongest),"Pearson correlation, all p < 0.001","Weight instrumentalness, loudness, speechiness in recommendation algorithms for discovery playlists"
-Q2: How do genres differ?,Significant audio differences; emo leads in popularity,"ANOVA F > 100, all p < 0.001",One-way ANOVA across top 10 genres,Genre-specific feature thresholds; prioritize emo editorially
-Q3: What makes a song danceable?,"Sweet spot = 0.7% of tracks, disproportionately popular",Sweet-spot avg popularity 77.7 vs dataset 33.3,750 tracks in cluster,Target danceability > 0.7 AND energy > 0.7 for workout / party playlists
-Q4: Do explicit songs perform better?,Explicit tracks 3.50 pts higher in popularity,"t = 13.68, p = 2.90e-42",Welch's t-test (unequal variance),Balance content promotion with brand safety; tune explicit filters for adult users
-Q5: Tempo & mood patterns?,"""Fast & Sad"" quadrant highest popularity (34.8)","chi2 = 468.1, p = 6.09e-98",Chi-square on mood cluster x popularity tier,Use tempo + valence for mood-arc playlist design; gradual tempo transitions reduce skips
