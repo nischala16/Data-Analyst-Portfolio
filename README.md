@@ -10,7 +10,7 @@ Translating complex data into actionable insights through statistical analysis, 
 
 | Project | Description | Key Results | Tools & Methods |
 |---------|-------------|-------------|-----------------|
-| **[Sephora Beauty Analytics](link)** | End-to-end ML pipeline analyzing 1M+ product reviews to uncover pricing strategies, sentiment patterns, and product success drivers | • Identified 30% pricing opportunity in travel-size products<br>• 90% category-first user behavior discovered<br>• Built 3 predictive models (AUC: 0.69-0.71, R²: 0.58) | Python • SQL • Transformers (DistilBERT) • XGBoost • scikit-learn • Tableau |
+| **[Sephora Beauty Analytics](https://github.com/nischala16/Data-Analyst-Portfolio/tree/main/sephora-analysis)** | End-to-end ML pipeline analyzing 1M+ product reviews to uncover pricing strategies, sentiment patterns, and product success drivers | • Identified 30% pricing opportunity in travel-size products<br>• 90% category-first user behavior discovered<br>• Built 3 predictive models (AUC: 0.69-0.71, R²: 0.58) | Python • SQL • Transformers (DistilBERT) • XGBoost • scikit-learn • Tableau |
 | **[Project Name 2]** | Brief description of what business problem you solved and how | • Quantified insight 1<br>• Quantified insight 2<br>• Impact metric | SQL • Python • Tableau • Statistics |
 | **[Project Name 3]** | Brief description | • Key finding 1<br>• Key finding 2 | Excel • SQL • Visualization Tool |
 
@@ -84,7 +84,7 @@ Jupyter • Git/GitHub • Data Cleaning & ETL • Dashboard Design • Business
 - Trained 3 models with cross-validation and hyperparameter tuning
 - Handled 99.7% sparse user-item matrix for collaborative filtering
 
-[View Full Analysis →](link)
+[View Full Analysis →](https://github.com/nischala16/Data-Analyst-Portfolio/tree/main/sephora-analysis)
 
 ---
 
