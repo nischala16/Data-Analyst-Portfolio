@@ -6,7 +6,7 @@ Currently open to data science and analytics roles.
 ## Projects
 | Project | Description | Key Results | Stack |
 |---------|-------------|-------------|-------|
-| **Twitch Elite Creator Analytics** | Multi-model ML system predicting mega-streamer status and identifying creator personas among 1,000 elite Twitch creators | 0.924 ROC-AUC classification • Engagement paradox discovered (rho=-0.50) • 5 distinct personas with 64% mega-rate for top segment • $1.8M estimated partnership savings | Python, scikit-learn, K-Means, Logistic Regression, scipy |
+| **[Twitch Elite Creator Analytics](https://github.com/nischala16/Data-Analyst-Portfolio/tree/main/twitch-gaming-analytics)** | Multi-model ML system predicting mega-streamer status and identifying creator personas among 1,000 elite Twitch creators | 0.924 ROC-AUC classification • Engagement paradox discovered (rho=-0.50) • 5 distinct personas with 64% mega-rate for top segment • $1.8M estimated partnership savings | Python, scikit-learn, K-Means, Logistic Regression, scipy |
 | **[Sephora Beauty Analytics](https://github.com/nischala16/Data-Analyst-Portfolio/tree/main/sephora-analysis)** | ML pipeline analyzing 1M+ reviews to identify pricing strategies and sentiment patterns | Brand positioning drives 85% of pricing variance • 90% category-first user behavior • Identified 30% pricing opportunity in travel sizes | Python, DistilBERT, XGBoost, BERTopic, scikit-learn |
 | **[Spotify Streaming Analytics](https://github.com/nischala16/Data-Analyst-Portfolio/tree/main/spotify-streaming-analysis)** | Statistical analysis of 114K tracks to understand popularity drivers and optimize playlists | High danceability + energy tracks show 2.35x popularity • Genre explains 100% variance (emo 48.1 vs reggaeton 23.9) • Individual features r<0.10 | Python, pandas, scipy, statistical testing |
 | **[SpaceX Falcon 9 Landing Prediction](https://github.com/nischala16/ibm-data-science-cert/tree/main/applied-data-science-capstone)** | End-to-end ML pipeline predicting first stage landing success using SpaceX API and web-scraped data | 0.80 Jaccard score across LR/SVM/KNN • KSC LC-39A identified as top site (77% success) • Success rate trend from 2013–2020 mapped | Python, scikit-learn, Folium, Plotly Dash, SQL, BeautifulSoup |
@@ -22,4 +22,4 @@ Currently open to data science and analytics roles.
 I focus on rigorous statistical methodology and translating findings into specific business recommendations. My work emphasizes proper hypothesis testing, identifying confounding variables, and model interpretability.
 
 ## Contact
-**LinkedIn** • **GitHub** • **nischalanagisetty@gmail.com**
+**[LinkedIn](https://www.linkedin.com/in/nischala-nagisetty)** • **[GitHub](https://github.com/nischala16)** • **[email](nischalanagisetty@gmail.com)**
